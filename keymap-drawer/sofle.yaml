@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT GUI, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:alpha-w-box$$
   - Z
   - X
   - C
@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - PLAY PAUSE
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - Ctl+ C
+  - Ctl+ V
   - layer1
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
   - '2'
-  - $$mdi:backspace-reverse-outline$$
+  - {t: 'Sft+ $$mdi:keyboard-return$$', type: enter}
+  - Sft+ $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -147,9 +147,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (
+  - )
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -160,9 +160,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - _
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -172,9 +172,9 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,6 +192,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
