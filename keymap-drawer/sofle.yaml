@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - PLAY PAUSE
-  - Ctl+ C
-  - Ctl+ V
+  - Ctl+C
+  - Ctl+V
   - layer1
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - {t: 'Sft+ $$mdi:keyboard-return$$', type: enter}
-  - Sft+ $$mdi:backspace-reverse-outline$$
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
+  - Sft+$$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
   - F1
